@@ -1,0 +1,56 @@
+{
+  "For loop with i": {
+    "prefix": "fori",
+    "body": [
+      "for (int i = 0; i < $1; i++) {",
+      "    $0;",
+      "}"
+    ],
+    "description": "for with increasing variable i"
+  },
+  "For loop with j": {
+    "prefix": "forj",
+    "body": [
+      "for (int j = 0; j < $1; j++) {",
+      "    $0;",
+      "}"
+    ],
+    "description": "for with increasing variable j"
+  },
+  "For loop with k": {
+    "prefix": "fork",
+    "body": [
+      "for (int k = 0; k < $1; k++) {",
+      "    $0;",
+      "}"
+    ],
+    "description": "for with increasing variable k"
+  },
+  "For loop with i and --": {
+    "prefix": "fori-",
+    "body": [
+      "for (int i = $1 - 1; i >= 0; i--) {",
+      "    $0;",
+      "}"
+    ],
+    "description": "for with decreasing variable i"
+  },
+  "For loop with j and --": {
+    "prefix": "forj-",
+    "body": [
+      "for (int j = $1 - 1; j >= 0; j--) {",
+      "    $0;",
+      "}"
+    ],
+    "description": "for with decreasing variable j"
+  },
+  "For loop with k and --": {
+    "prefix": "fork-",
+    "body": [
+      "for (int k = $1 - 1; k >= 0; k--) {",
+      "    $0;",
+      "}"
+    ],
+    "description":"for with decreasing variable k"
+  }
+}
