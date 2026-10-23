@@ -1,4 +1,4 @@
-# cpp for autogenerator extension
+# cpp `for` autogenerator extension
 
 **VS Code расширение для автогенерации циклов `for` в C++.**
 
@@ -51,7 +51,7 @@
   ```
 
 ---
-Также доступна функция отправки сообщения от расширения при вводе `For Generator` в палитре команд (Ctrl (Cmd на Mac) + Shift + P).
+Также доступна функция получения сообщения *`Hello from for generator!`* от расширения при вводе *`For Generator`* в палитре команд (Ctrl (Cmd на Mac) + Shift + P).
 
 ## Установка
 Установка доступна из *VSIX*.
